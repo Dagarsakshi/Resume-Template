@@ -1,28 +1,92 @@
+body {
+  background: white; 
+  font-family: lato;
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+ padding: 0px;
+ margin-top: 50px;
+ border-style: solid;
+    border-width: 5px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: #CDCDCF;
 
-#image{
- height: 200px;
- width: 242px;
+  
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+
+
+#header{
  
+ display: grid;
+ grid-template-columns: 1.5fr 6fr;
+ height: 150px;
  
 }
-#header{
-
- display: grid;
- grid-template-columns: 2fr 5fr;
- 
+#image{
+height: 150px;
+width:150px;
+background-clip: padding-box;
+border-radius: 20px 0px 0px 0px;
 }
 #htop{
-	padding: 10px;
-	padding-top: 20px;
+	height: 150px;
+	background-clip: padding-box;
+	border-radius: 0px 20px 0px 0px;
 	padding-left: 30px;
 	background: rgb(255, 226, 51);
  color: black;
+ font-weight: bold;
 }
+
+
+#exp{
+ 
+color: white;
+ padding-left: 50px;
+ padding-top: 3px;
+ padding-bottom: 5px;
+}
+#exp span{
+	background: black;
+	padding: 3px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+#text1{
+	padding-left: 67px;
+	padding-top: 15px;
+}
+
+#text2{
+	padding-left: 67px;
+	font-weight:  bold;
+}
+#tim{
+	padding-left: 67px;
+	padding-top: 0px;
+	color: #CDCDCF
+}
+#bullet1{
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 90px;
+}
+
 #ui{
 	padding-left: 50px;
  display: grid;
  grid-template-columns: 4fr 4fr;
- padding-bottom: 30px;
+ padding-bottom: 10px;
  
 }
 
@@ -30,7 +94,7 @@
 	padding-left: 50px;
  display: grid;
  grid-template-columns: 4fr 4fr;
- padding-bottom: 70px;
+ padding-bottom: 60px;
 }
 #progress-bar{
  background: black;
@@ -44,6 +108,7 @@
 #progress{
  background: black;
  height: 7px;
+ 
  display: inline-grid;
  grid-template-columns: 7.5fr 0.5fr;
  
@@ -67,89 +132,27 @@
  
  padding-right: 70px;
 }
-#skills{
- background: #CDCDCF;
- padding: 10px;
-}
-#exp1{
- margin-right: 20px;
- display: grid;
- grid-template-columns: 1fr 2fr 4fr;
-}
+
 p{
  text-align: justify;
 }
-#head{
- font-weight: bold;
-}
-#left-mrgm{
- margin-left: 40px;
- font-weight: bold;
-}
-
 
 #Firstname{
  
  font-weight: bold;
  margin-top: 10px;
- padding-top: 20px;
+ padding-top: 15px;
  padding-left: 20px;
 }
 #Lastname{
  
  font-weight: bold;
- margin-top: 10px;
+ margin-top: 5px;
  padding-left: 20px;
 }
 #web{
  
- margin-top: 10px;
+ margin-top: 5px;
  padding-left: 20px;
 
 }
-#skillset{
-	padding-left: 70px;
-	padding-right: 70px;
-}
-#exp{
- 
-color: white;
- padding-left: 50px;
- padding-top: 20px;
- padding-bottom: 15px;
-}
-#exp span{
-	background: black;
-	padding: 8px;
-}
-#text1{
-	padding-left: 67px;
-	padding-top: 70px;
-}
-#text2{
-	padding-left: 67px;
-	font-weight:  bold;
-}
-#tim{
-	padding-left: 67px;
-	padding-top: 0px;
-	color: #CDCDCF
-}
-#bullet1{
-	list-style-type: disc;
-	list-style-position: inside;
-	padding-left: 90px;
-}
-#wrapper{
-	font-family: lato;
- padding: 0px;
- margin-top: 50px;
- border-style: solid;
-    border-width: 5px;
-    border-top-width: 10px;
-    border-bottom-width: 10px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: #CDCDCF;}
-
- 
